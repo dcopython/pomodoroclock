@@ -1,3 +1,105 @@
-#minbreak {
+body {
+    background: #cd88af;
+    color: white;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#title {
+    margin-top: -15px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title h1 {
+    font-size: 60px;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    margin-top: 0px;
+}
+
+#main {
+    background: #882d61;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 370px;
+    flex-direction: column;
+    border: 3px white solid;
+    border-radius: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#minutebreak {
+    display: flex;
+    font-size: 25px;
+    margin-top: -20px;
+}
+
+#timer {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    border: solid 2px;
+    margin-top: -10px;
+    width: 255px;
+}
+
+.minbreak {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.minbreak h3 {
+    margin: 0;
+}
+
+#minbreak1 {
+    margin-right: 30px;
+}
+
+#minbreak2 {
+    margin-left: 30px;
+}
+
+#minuteDisplay {
+    margin: 0;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#breakDisplay {
+    margin: 0;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#allmediabuttons {
+    margin-top: 20px;
+}
+
+.adjustbuttons {
+    background: #661141;
+    border: 1px solid #cd88af;
+    color: white;
+    border-radius: 5px;
+    height: 45px;
+    width: 45px;
+}
+
+.mediabuttons {
+    background: #661141;
+    border: 1px solid #cd88af;
+    color: white;
+    border-radius: 5px;
+    height: 50px;
+    width: 110px;
+    font-size: 26px;
+    font-weight: bold;
 }
