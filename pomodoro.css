@@ -9,7 +9,7 @@ body {
 
 #title {
     margin-top: -15px;
-    height: 230px;
+    height: 375px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,6 +19,7 @@ body {
     font-size: 60px;
     font-family: 'Liu Jian Mao Cao', cursive;
     margin-top: 0px;
+    margin-bottom: 30px;
 }
 
 #main {
@@ -26,8 +27,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 500px;
-    width: 370px;
+    height: 630px;
+    width: 375px;
     flex-direction: column;
     border: 3px white solid;
     border-radius: 30px;
@@ -41,12 +42,14 @@ body {
 }
 
 #timer {
-    display: flex;
-    justify-content: center;
     font-size: 60px;
-    border: solid 2px;
+    border: solid 6px;
     margin-top: -10px;
-    width: 255px;
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 225px;
 }
 
 .minbreak {
